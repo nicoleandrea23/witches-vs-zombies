@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+body {
+  background-image: url("./img/fondito.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.inicio {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inicio-izquierda {
+  width: 60%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inicio-izquierda p {
+  width: 70%;
+  text-align: justify;
+  font-size:30px;
+  margin-top: 80px;
+  color: rgb(230, 228, 227);
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
+  transform:translateX(0%) translateY(120%);
+}
+
+.inicio-izquierda footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.inicio-izquierda footer a {
+  border-radius: 30px;
+  background: #aa66b6;
+  border: solid 1px #c964de;
+  font-family: 'Quicksand', sans-serif;
+  color:#e2a3ef;
+  text-decoration: none;
+  padding: 30px 80px;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 10px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  transform:translateX(0%) translateY(190px);
+}
+
+.inicio-izquierda footer a:hover {
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.inicio-izquierda footer .activo {
+  background: #e2a3ef;
+  color: #aa66b6;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.inicio-derecha {
+  width: 55%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inicio-derecha img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.inicio-izquierda img {
+    transform:translateX(0%) translateY(10%);
+    width: 60%;
+    overflow: hidden;
+  }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .inicio {
+    overflow-x: hidden;
+  }
+  .inicio-izquierda {
+    width: 100%;
+    background: none;
+  }
+  .inicio-derecha {
+    width: 130%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: -350px;
+    overflow-x: hidden;
+  }
+  .inicio-derecha img {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .inicio {
+    display: block;
+  }
+  .inicio-izquierda {
+    width: 100%;
+    height: 100vh;
+    background: none;
+  }
+  .inicio-derecha {
+    display: none;
+  }
+  .inicio-derecha img {
+    height: 100vh;
+  }
+}
+/*# sourceMappingURL=index.css.map */
