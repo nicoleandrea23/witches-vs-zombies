@@ -31,23 +31,23 @@ class Logica {
     }
 
     precargar() {
-        this.pantallaInicio = this.app.loadImage("/src/images/pantallainicio.png");
-        this.pantallaDos = this.app.loadImage("/src/images/pantallados.png");
-        this.pantallaTres = this.app.loadImage("/src/images/pantallatres.png");
-        this.pantallaJuego = this.app.loadImage("/src/images/juego.png");
-        this.balaRosada = this.app.loadImage("/src/images/balarosada.png");
-        this.balaVerde = this.app.loadImage("/src/images/balaverde.png");
-        this.calabaza = this.app.loadImage("/src/images/calabaza.png");
-        this.frack = this.app.loadImage("/src/images/franck.png");
-        this.huesos = this.app.loadImage("/src/images/huesos.png");
-        this.posion = this.app.loadImage("/src/images/posion.png");
-        this.rosa = this.app.loadImage("/src/images/rosa.png");
-        this.verde = this.app.loadImage("/src/images/verde.png");
-        this.corazon = this.app.loadImage("/src/images/corazon.png");
-        this.araña = this.app.loadImage("/src/images/araña.png");
-        this.botonRosa = this.app.loadImage("/src/images/botonrosa.png");
-        this.botonVerde = this.app.loadImage("/src/images/botonverde.png");
-        this.pantallaFinal = this.app.loadImage("/src/images/pantallafinal.png");
+        this.pantallaInicio = this.app.loadImage("./src/images/pantallainicio.png");
+        this.pantallaDos = this.app.loadImage("./src/images/pantallados.png");
+        this.pantallaTres = this.app.loadImage("./src/images/pantallatres.png");
+        this.pantallaJuego = this.app.loadImage("./src/images/juego.png");
+        this.balaRosada = this.app.loadImage("./src/images/balarosada.png");
+        this.balaVerde = this.app.loadImage("./src/images/balaverde.png");
+        this.calabaza = this.app.loadImage("./src/images/calabaza.png");
+        this.frack = this.app.loadImage("./src/images/franck.png");
+        this.huesos = this.app.loadImage("./src/images/huesos.png");
+        this.posion = this.app.loadImage("./src/images/posion.png");
+        this.rosa = this.app.loadImage("./src/images/rosa.png");
+        this.verde = this.app.loadImage("./src/images/verde.png");
+        this.corazon = this.app.loadImage("./src/images/corazon.png");
+        this.araña = this.app.loadImage("./src/images/araña.png");
+        this.botonRosa = this.app.loadImage("./src/images/botonrosa.png");
+        this.botonVerde = this.app.loadImage("./src/images/botonverde.png");
+        this.pantallaFinal = this.app.loadImage("./src/images/pantallafinal.png");
 
 
         console.log(this.rosas.length);
